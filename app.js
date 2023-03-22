@@ -39,7 +39,7 @@ class Layer {
     update() {
         this.speed = gameSpeed * this.speedModifier;
         if (this.x <= -this.width) {
-            this.x = this.width + this.x - this.speed;
+            this.x = this.width + this.x2 - this.speed;
         }
         if (this.x2 <= -this.width) {
             this.x2 = this.width + this.x - this.speed;
